@@ -64,7 +64,7 @@ console.log("The time is 12:00pm. Times up!")
     console.log(`\nYou caught ${caughtFish.length} fish:`)
 
     for(let i = 0; i < caughtFish.length; i++){
-        console.log(`${caughtFish.name}`)
+        console.log(`${caughtFish[i].name}`)
     }
 
     console.log(`Total weight: ${getTotalWeight()} lbs`)
